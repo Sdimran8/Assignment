@@ -100,26 +100,45 @@
 # else:
 #     print('not exist')        
 
-l = [1,2,3,4,5,6,7,8,9,10]
-n = int(input('enter input'))
-if n in l:
-    l.remove(n)
-    print(l)
+# l = [1,2,3,4,5,6,7,8,9,10]
+# n = int(input('enter input'))
+# if n in l:
+#     l.remove(n)
+#     print(l)
 
-elif n not in l:
-    print('deletd')
+# elif n not in l:
+#     print('deletd')
 
-else:
-    print('out of range')    
-
-# elements_list = list(range(1, 51))
-# user_input = int(input("Enter a number from 1 to 50"))
-# number = user_input
-# if 1 <= number <= 50:
-#         if number in elements_list:
-#             elements_list.remove(number)
-#             print(elements_list)
-#         else:
-#             print(f"Number {number} is not in the list.")
 # else:
-#         print("Please enter a number between 1 and 50.")
+#     print('out of range')    
+
+
+# s ='pyThon is EaSy LanGuaGe'
+# count = 0
+# for i in s:
+#     if i.isupper():
+#         print(i.count(i))
+#     count = count + 1
+    # elif i.islower():
+        # print(i)           
+# print(s.upper())
+
+# s ='pyThon is EaSy LanGuaGe'
+# count = ''
+# for i in s:
+#     if i.isupper():
+#         print(count(i))
+#     # elif i.islower():
+#         count = count + 1
+# print(i) 
+
+# n ='pyTHoNSSSS'
+# print('capital letters : ', sum (1 for i in n if i.isupper()))   
+
+n = 'imRddddddaKPUn'
+sum = 0 
+for i in n :
+    if i.islower():
+        sum = sum + 1
+print(sum)
+
