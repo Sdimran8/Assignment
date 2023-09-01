@@ -120,25 +120,38 @@
 # output = s1[:l]+s2+s1[l:]
 # print(output)
 
-t = int(input("enter "))
-sum = 0
-for i in range(1,t+1):
-    sum = sum + i
-print(sum)
-avg = sum/i
-print(avg)    
-
-# n = int(input("Enter number"))
+# t = int(input("enter "))
 # sum = 0
-# # loop from 1 to n
-# for num in range(1, n + 1, 1):
-#     sum = sum + num
-# print("Sum of first ", n, "numbers is: ", sum)
-# average = sum / n
-# print("Average of ", n, "numbers is: ", average)
+# for i in range(1,t+1):
+#     sum = sum + i
+# print(sum)
+# avg = sum/i
+# print(avg)    
 
+# a=[3,4,1,6,9,20]
+# print(sorted(a))
+# print(sorted(a,reverse=True))
+# a.sort()
+# print(a)
+# ggmembership
+# a=(2,3,5,7,8)
+# b= 2 in a
+# print(b)
 
+# j = 2,3,4,5,6
+# k = 3 not in j
+# print(k)
 
+#packing & Unpacking
+a = 1,2,3,4
+e=1
+b=2
+c=3
+d=4
+print(e)
+print(b)
+print(c)
+print(d)
 
 
 
