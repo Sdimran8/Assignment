@@ -1,4 +1,4 @@
-# python                                                  #DATA STRUCTURES
+# python                                                  # DATA TYPES  
 
 #LIST: Mutuable []
 
